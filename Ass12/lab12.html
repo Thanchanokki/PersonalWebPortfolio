@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lab12.css">
+</head>
+
+<body>
+
+    <div class="from-group">
+        <form action="" method="get">
+            <div>
+                <h1>Employment Application</h1>
+            </div>
+            <div class="w">
+
+                <h3>Which position are you applying for?</h3>
+                <label for="cars"></label>
+                <select name="" id="">
+                    <optgroup label="Position">
+                        <option value="HR">HR</option>
+                        <option value="Admin">Admin</option>
+                    </optgroup>
+                </select>
+                <br><br>
+            </div>
+            <div>
+                <h3>Are you willing to relocate? <span>*</span></h3>
+                <div class="y">
+                    <input type="radio" name="sex" value="Yes">Yes<br>
+                    <input type="radio" name="sex" value="No">No <br>
+                    <br>
+                </div>
+
+            </div>
+            <div>
+                <h3>when can you start? <span>*</span></h3>
+                <div class="date">
+                    <label for="birthday">Choose date</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+
+            </div>
+            <div>
+                <h3>Portfolio wed Site</h3>
+            </div>
+            <div class="port">
+            <input type="" name="user">
+            </div>
+           
+    </div>
+
+    <div>
+        <h2>Attach a Copy of Your Resume</h2>
+    </div>
+    <div class="file">
+        <input type="submit" value="Choose File">
+        <label for="file">No file Chosen</label>
+        <!-- <input type="file" id="file" name="file" accept=".jpg,.png,.pdf,.docx"> -->
+        <br><br>
+
+    </div>
+    Name <span>*</span><br>
+    <div>
+        <div class="input-group">
+
+            <div class="a1">
+                <input type="gender" name="First"><br> First
+            </div>
+
+            <div class="a2">
+                <input type="gender" name="Last"><br> Last
+            </div>
+
+            <br>
+        </div>
+        <div>
+            <div class="e"> Email Address<span>*</span> 
+            <input type="text" name="user">
+            </div>
+
+        </div>
+        
+        <div>
+            <h3>Phone <span>*</span></h3>
+            <div class="Phone">
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="08X-XXX-XXXX"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <br>
+
+            </div>
+
+        </div>
+
+        </form>
+        <div class="but">
+            <button type="submit" class="btn">Submit</button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

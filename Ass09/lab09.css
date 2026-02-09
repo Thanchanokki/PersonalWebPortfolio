@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.custom-card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+h1{
+    text-align: center;
+    color: rgb(91, 91, 245);
+    border: 1px solid rgb(225, 199, 250);
+    background-color: rgb(250, 199, 250);
+    border-radius: 15px;
+    margin: 10px;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+h2{
+    color: rgb(176, 41, 176);
+}
+.container{
+    color: palevioletred;
+}

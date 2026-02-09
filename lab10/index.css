@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    padding: 100%;
+}
+.col{
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+@media  screen and (min-width : 577px) {
+    .col{
+      background-color: blue;
+    }
+}
+@media  screen and (min-width : 1024px) {
+    .col{
+      background-color: red;
+    }
+    ul li{
+        display: inline;
+    }
+}
+@media  screen and (min-width : 1980px) {
+    .col{
+      background-color: green;
+    }
+    ul li{
+        background-color: red;
+    }
+
+}

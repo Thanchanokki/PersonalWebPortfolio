@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: white;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: blueviolet;
+        }
+        li{
+            display: inline-block;
+            position: relative;
+        }
+        li a{
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            text-align: center;
+            width: 80px;
+        }
+        li a:hover{
+            background-color: orange;
+        }
+        /* ตกแต่งของmenu leval2*/
+        li ul{
+            display: none;
+            position: absolute;
+            top: 100%;
+            background-color: peachpuff;
+            z-index: 1;
+            list-style-type: none;
+        }
+        li ul li{
+            float: none;
+
+        }
+        li ul li a{
+            color: purple;
+        }
+        li ul li a:hover{
+            background-color: yellow;
+            text-align: center;
+        }
+        li:hover > ul{
+            display: block;
+        }
+        /*ตกแต่งของsubmenu level3*/
+        li ul ul{
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            background-color: pink;
+
+        }
+        li ul ul li a{
+            color: brown;
+            padding: 10px;
+            width: 70px;
+        }
+        li ul ul li a:hover{
+            color: blue;
+        }
+        li ul li:hover > ul{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a>
+            <ul>
+                <li><a href="#sub1">Submenu 1</a></li>
+                <li><a href="#sub2">Submenu 2</a>
+                <ul>
+                    <li><a href="#sub2-1">leval 3-1</a></li>
+                    <li><a href="#sub2-2">level 3-2</a></li>
+                    <li><a href="#sub2-3">level 3-3</a></li>
+                </ul>
+                </li>
+                <li><a href="#sub3">Submenu 3</a></li>
+                <li><a href="#sub4">Submenu 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</body>
+</html>

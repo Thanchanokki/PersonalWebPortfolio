@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example3</title>
+
+    <style>
+        p.test1 {
+            white-space: nowrap;
+            width: 250px;
+            border: 1px solid black;
+            overflow: auto;
+            text-overflow: clip;
+        }
+
+        p.test2 {
+            white-space: nowrap;
+            width: 250px;
+            border: 1px solid black;
+            overflow: auto;
+            text-overflow: ellipsis;
+        }
+
+        p.test {
+            white-space: normal;
+            width: 250px;
+            border: 1px solid black;
+            word-wrap: break-word;
+        }
+        p.test3{
+            white-space: normal;
+            width: 250px;
+            border: 1px solid black;
+            word-break: keep-all;
+        }
+        p.test4{
+            white-space: normal;
+            width: 250px;
+            border: 1px solid black;
+            word-break:break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem reprehenderit officiis nesciunt ab? Fugiat nulla
+    </p>
+    <p>text-overflow:clip</p>
+    <p class="test" style="overflow: auto;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet omnis sapiente neque
+        cupiditate, tenetur provident reiciendis, voluptas adipisci cum eligendi obcaecati corporis consectetur dolore
+        ipsam quam nobis ipsa ipsum.</p>
+    <p class="test1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quaerat nemo a, commodi minus vel
+        magnam id sunt
+        quas ab consequuntur dignissimos dolorum animi. In ex voluptas dicta repudiandae vero.</p>
+    <p class="test2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet omnis sapiente neque
+        cupiditate, tenetur provident reiciendis, voluptas adipisci cum eligendi obcaecati corporis consectetur dolore
+        ipsam quam nobis ipsa ipsum.</p>
+    <p class="test3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolor nihil esse deleniti veniam, ipsam incidunt
+        saepe ea sapiente at doloremque odit molestiae ad blanditiis fuga corporis iusto maiores! Doloribus?</p>
+        <p class="test4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolor nihil esse deleniti veniam, ipsam incidunt
+            saepe ea sapiente at doloremque odit molestiae ad blanditiis fuga corporis iusto maiores! Doloribus?</p>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    border: 2px solid black;
+}
+.col{
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+@media  screen and (min-width : 576px) {
+    .container{
+    display: grid;
+    }
+}
+@media  screen and (min-width : 1024px) {
+    .container1{
+        display: flex;
+    }
+}
+@media  screen and (min-width : 1980px) {
+   .container2{
+    display: flex;
+   }
+
+}

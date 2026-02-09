@@ -1,0 +1,87 @@
+@media screen and (min-width : 576px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width : 1980px) {
+    .container {
+        max-width: 1980px;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 10px;
+}
+img{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+body {
+    background-color: rgb(251, 242, 230);
+    color: rgb(19, 20, 79);
+    line-height: 1.65;
+    font-family: sans-serif;
+}
+
+p {
+    text-indent: 30px;
+} 
+
+li {
+    text-indent: 30px;
+}
+
+
+.border-container {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h2 {
+    text-indent: 50px;
+    color: rgb(19, 20, 79);
+    /* สีข้อความ */
+    text-shadow:
+        1px 1px 0 white,
+        /* เงาแรก (ด้านขวาล่าง) */
+        -1px -1px 0 white,
+        /* เงาที่สอง (ด้านซ้ายบน) */
+        1px -1px 0 white,
+        /* เงาที่สาม (ด้านขวาบน) */
+        -1px 1px 0 white;
+    /* เงาที่สี่ (ด้านซ้ายล่าง) */
+}
+
+a {
+    color: rgb(13, 112, 193);
+}
+
+a:hover {
+    color: rgb(201, 19, 19);
+    /* เปลี่ยนเป็นสีที่คุณต้องการ */
+}
+
+/* เปลี่ยนสีของลิงก์ที่ถูกคลิกแล้ว */
+a:active {
+    color: green;
+    /* เปลี่ยนเป็นสีที่คุณต้องการ */
+}
+
+/* เปลี่ยนสีของลิงก์ที่ถูกเยี่ยมชมแล้ว */
+a:visited {
+    color: rgb(105, 205, 5);
+    /* เปลี่ยนเป็นสีที่คุณต้องการ */
+}

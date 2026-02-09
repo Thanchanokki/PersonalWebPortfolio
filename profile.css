@@ -1,0 +1,174 @@
+.h{
+    color: palevioletred;
+    text-align: center;
+    font-variant: small-caps;
+   
+}
+ul{
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 162, 247);
+    color: rgb(249, 248, 248);
+    font-variant: small-caps;
+}
+li{
+    display: inline-block;
+    position: relative;
+}
+li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 100px;
+}
+li a:hover{
+    background-color: orange;
+}
+/* ตกแต่งของmenu leval2*/
+li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: peachpuff;
+    z-index: 1;
+    list-style-type: none;
+}
+li ul li{
+    float: none;
+
+}
+li ul li a{
+    color: purple;
+}
+li ul li a:hover{
+    background-color: yellow;
+    text-align: center;
+}
+li:hover > ul{
+    display: block;
+}
+/*ตกแต่งของsubmenu level3*/
+li ul ul{
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: rgb(255, 197, 255);
+
+}
+li ul ul li a{
+    color: brown;
+    padding: 10px;
+    width: 70px;
+}
+li ul ul li a:hover{
+    color: blue;
+}
+li ul li:hover > ul{
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+nav {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-variant: small-caps;
+    
+}
+.main {
+    flex: 2;
+    padding: 20px;
+    background-color:rgb(156, 183, 255);
+    margin-right: 20px;
+}
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color:rgb(206, 167, 243);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(255, 197, 255);
+  }
+div{
+    color: #fefefe;
+    background-color: #fadcdc;
+}
+h2{
+    flex: 1;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: pink;
+    font-variant: small-caps;
+}
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+}
+.search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.search-submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+p{
+    color: #6b0202;
+    text-align: center;
+    font-family:Helvetica;
+    border: rgb(255, 197, 255)solid 1px;
+    background-color: rgb(255, 197, 255);
+    border-radius: 5px;
+    /* padding: 5px; */
+    margin: 30px;
+}
+img {
+    margin: auto;
+    display: block; 
+    width: 100%;
+    height: auto;
+}

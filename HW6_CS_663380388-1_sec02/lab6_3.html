@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Table</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    table{
+        width: 100%;
+    }
+    #head{
+        background-color: rgb(233, 0, 0);
+        color: white;
+    }
+    #nav{
+        width: 50%;
+        background-color: palevioletred;
+        height: 200px;
+        float: left; 
+
+    }
+    #footer{
+        color: white;
+        text-align: center;
+        background-color: red;
+    }
+    #content{
+        display: flex;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td id="head" colspan="2">
+                <h1>Header</h1>
+            </td>
+        </tr>
+        <tr>
+            <td id="nav">
+                <h4>Navigation</h4>
+            </td>
+            <td id="content">
+                <p>
+                <p>Content</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione hic tempore nemo fugiat a facere
+                    pariatur soluta architecto commodi labore obcaecati ex, voluptatum modi at nulla illum voluptatem
+                    assumenda rerum.</p>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td id="footer" colspan="2">
+                <h4>
+                    Footer
+                </h4>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
